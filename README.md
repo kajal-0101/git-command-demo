@@ -66,3 +66,16 @@ The following command lists down all the available branches of the repository
 ```
 git branch --list
 ```
+
+The following commands are useful for deleting non-primary branches of the repo 
+
+```
+git branch -d <branch-name>
+```
+
+This command deleted the mentioned branch name from the local repository. To delete the branch, from the remote repository, the following command must be executed.
+
+```
+git push origin --delete <branch-name>
+```
+
