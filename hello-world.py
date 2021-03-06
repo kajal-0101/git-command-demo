@@ -19,3 +19,7 @@ print("Today, commands of Git are being demonstrated")
 This line is being added to demonstrate diff command
 '''
 print("Diff command is to be executed")
+
+'''
+This line will be committed by will go away later
+'''
