@@ -34,4 +34,24 @@ To get a list of the commits made into the repository, either of the commands ma
  
  This command can be considered as the combination of commands **git fetch** and **git merge**, as it firstly fetches updated data from the remote repository then merges it with the local repository data. Conflict, if any must be solved manually.
  
+ ## Show
  
+ ```
+ git show <commit-id>
+ ```
+ 
+ The above command produces verbose output exhibiting the details of the commit whose id has been passed.
+ 
+ ```
+ git show <commit-id> --name-only
+ ```
+ This command can be executed to produce non-verbose output of the passed commit id
+ 
+ ## Branch
+ 
+```
+git branch <branch-name>
+```
+
+To create a new branch of the repository the following command must be used. This command creates a local branch. For pushing the **newly** created branch into the remote repository, the below command must be used
+
