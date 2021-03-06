@@ -19,3 +19,8 @@ print("Today, commands of Git are being demonstrated")
 This line is being added into the program from the third branch
 '''
 print("This line is being added into the program from the remote branch called third")
+
+'''
+This line is being added to demonstrate diff command
+'''
+print("Diff command is to be executed")
