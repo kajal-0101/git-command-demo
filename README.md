@@ -25,3 +25,13 @@ To get a list of the commits made into the repository, either of the commands ma
  git log --oneline
  ```
  This command generates a non-verbose output
+ 
+ ## Pull
+ 
+ ```
+ git pull
+ ```
+ 
+ This command can be considered as the combination of commands **git fetch** and **git merge**, as it firstly fetches updated data from the remote repository then merges it with the local repository data. Conflict, if any must be solved manually.
+ 
+ 
