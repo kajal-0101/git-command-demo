@@ -14,3 +14,8 @@ print("Hello World")
 This line is bein g added into the command as a prt of git pull demonstration
 '''
 print("Today, commands of Git are being demonstrated")
+
+'''
+This line is being added to demonstrate diff command
+'''
+print("Diff command is to be executed")
