@@ -8,3 +8,9 @@ This is the first commit.
 A line "Hello World is going to be printed"
 '''
 print("Hello World")
+
+
+'''
+This line is bein g added into the command as a prt of git pull demonstration
+'''
+print("Today, commands of Git are being demonstrated")
