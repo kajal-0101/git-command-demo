@@ -61,3 +61,8 @@ git push -u origin <branch-name>
 
 the **-u** in the above command is the short form for **--set-upstream**
 
+The following command lists down all the available branches of the repository
+
+```
+git branch --list
+```
