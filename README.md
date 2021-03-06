@@ -55,3 +55,9 @@ git branch <branch-name>
 
 To create a new branch of the repository the following command must be used. This command creates a local branch. For pushing the **newly** created branch into the remote repository, the below command must be used
 
+```
+git push -u origin <branch-name>
+```
+
+the **-u** in the above command is the short form for **--set-upstream**
+
